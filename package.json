@@ -1,0 +1,17 @@
+{
+  "name": "windows-emoji",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 3000",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.43.1",
+    "@types/node": "^20.12.7",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
